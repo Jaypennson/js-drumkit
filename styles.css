@@ -1,0 +1,190 @@
+#drumkit {
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.snare > kbd {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  font-size: 20px;
+}
+.hihat > kbd {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  font-size: 20px;
+}
+.symbals > kbd {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  font-size: 20px;
+}
+.mid > kbd {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  font-size: 20px;
+}
+.high > kbd {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  font-size: 20px;
+}
+
+.ride > kbd {
+  text-align: center;
+  position: absolute;
+  top: 65%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 44%;
+  font-size: 20px;
+  rotate: 8deg;
+}
+
+.kick > kbd {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 70%;
+  font-size: 20px;
+}
+.floor > kbd {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  font-size: 20px;
+}
+
+.key {
+  border: 2px solid black;
+  transition: all 0.07s;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 20px #ffc600;
+}
+
+.keys {
+  z-index: 1;
+  position: relative;
+}
+
+.symbals {
+  text-align: center;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  border-radius: 50%;
+  width: 163px;
+  rotate: -15deg;
+  height: 118px;
+}
+
+.hihat {
+  text-align: center;
+  position: absolute;
+  top: 146px;
+  left: -1px;
+  border-radius: 50%;
+  width: 136px;
+  rotate: -17deg;
+  height: 96px;
+}
+
+.kick {
+  text-align: center;
+  position: absolute;
+  top: 204px;
+  left: 179px;
+  border-radius: 50%;
+  width: 217px;
+  rotate: -5deg;
+  height: 184px;
+  border: none;
+}
+
+.snare {
+  text-align: center;
+  position: absolute;
+  top: 204px;
+  left: 167px;
+  border-radius: 50%;
+  width: 144px;
+  rotate: 0deg;
+  height: 105px;
+  border: none;
+}
+
+.ride {
+  text-align: center;
+  position: absolute;
+  top: 51px;
+  left: 430px;
+  border-radius: 50%;
+  width: 164px;
+  rotate: -11deg;
+  height: 164px;
+}
+
+.mid {
+  text-align: center;
+  position: absolute;
+  top: 26px;
+  left: 219px;
+  border-radius: 50%;
+  width: 98px;
+  rotate: -5deg;
+  height: 69px;
+  border: none;
+}
+
+.high {
+  text-align: center;
+  position: absolute;
+  top: 46px;
+  left: 334px;
+  border-radius: 50%;
+  width: 98px;
+  rotate: 11deg;
+  height: 66px;
+  border: none;
+}
+
+.floor {
+  text-align: center;
+  position: absolute;
+  top: 198px;
+  left: 429px;
+  border-radius: 50%;
+  width: 165px;
+  rotate: 35deg;
+  height: 125px;
+  border: none;
+}

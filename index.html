@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Drumkit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="drumkit">
+      <div class="keys">
+        <img src="drumkit.webp" class="drumkit" />
+        <div data-key="65" class="key hihat">
+          <kbd>A</kbd>
+          <span class="sound"></span>
+        </div>
+        <div data-key="83" class="key symbals">
+          <kbd>S</kbd>
+          <span class="sound"></span>
+        </div>
+        <div data-key="68" class="key kick">
+          <kbd>D</kbd>
+          <span class="sound"></span>
+        </div>
+        <div data-key="70" class="key snare">
+          <kbd>F</kbd>
+          <span class="sound"></span>
+        </div>
+        <div data-key="71" class="key mid">
+          <kbd>G</kbd>
+          <span class="sound"></span>
+        </div>
+        <div data-key="72" class="key high">
+          <kbd>H</kbd>
+          <span class="sound"></span>
+        </div>
+        <div data-key="74" class="key floor">
+          <kbd>J</kbd>
+          <span class="sound"></span>
+        </div>
+        <div data-key="75" class="key ride">
+          <kbd>K</kbd>
+          <span class="sound"></span>
+        </div>
+      </div>
+    </section>
+
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="65" src="sounds/hihat.wav"></audio>
+    <audio data-key="83" src="sounds/symbals.wav"></audio>
+    <audio data-key="70" src="sounds/snare.wav"></audio>
+    <audio data-key="71" src="sounds/mid.wav"></audio
+    ><audio data-key="72" src="sounds/high.wav"></audio
+    ><audio data-key="74" src="sounds/floor.wav"></audio
+    ><audio data-key="75" src="sounds/ride.wav"></audio>
+  </body>
+  <script src="scripts.js"></script>
+</html>
